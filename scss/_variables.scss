@@ -1,0 +1,15 @@
+$font-family-sans-serif: 'Source Sans Pro',sans-serif;
+$navbar-font-size:1rem;
+$navbar-font-weight:bold;
+$primary:#008ed6;
+$sec:#4d4e53;
+
+%hoverborder{
+        position: absolute;
+        content: '';
+        width: 30%;
+        height: 1.5px;
+        background: $primary;
+        bottom: 5px;
+        transition: .5s ease;
+    }
